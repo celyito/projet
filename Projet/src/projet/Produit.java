@@ -23,9 +23,9 @@ public class Produit {
 	  //Methods
 	  @Override
 	  public String toString() {
-	    return  "Nom: "      +this.getNom()+    "n"+
-	        "Prix unité: " +this.getPrixUnit()+  " €n"+
-	        "En Stock: "    +this.getQuantStock()+ "n";
+	    return  "Nom: "      +this.getNom()+    "\n"+
+	        "Prix unité: " +this.getPrixUnit()+  " €\n"+
+	        "En Stock: "    +this.getQuantStock()+ "\n";
 	  }
 	  
 	  //Get and Set

@@ -6,7 +6,7 @@ public class Suplements extends Produit {
 	  
 	  //Constructor
 	  public Suplements() { }
-	  public Suplements(String nom, double prixUnit, int quantStock, boolean disponible, String typeAcc, String quantité) {
+	  public Suplements(String nom, double prixUnit, int quantStock, boolean disponible, String quantité) {
 	    super(nom, prixUnit, quantStock, disponible);
 	    this.quantité = quantité;
 	  }
@@ -29,6 +29,6 @@ public class Suplements extends Produit {
 	  }
 	}
 
-}
 
-}
+
+

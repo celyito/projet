@@ -21,19 +21,19 @@ public class Gestion {
   
   public void montrerProduit(Produit[] produits) { 
       for (int i = 0; i < produits.length; i++) {
-        System.out.print(produits[i]+"n-------n");
+        System.out.print(produits[i]+"\n-------\n");
       }
   }
   public void montrerNomProduits(Produit[] produits) { 
       for (int i = 0; i < produits.length; i++) {
-        System.out.println(i+1 +" "+produits[i].getNom()+"n");
+        System.out.println(i+1 +" "+produits[i].getNom()+"\n");
       }
-      System.out.println("n------------n");
+      System.out.println("\n------------\n");
   }   
   public double acheterProduits(Produit[] produits, int num, int quantité) {
     if (produits[num-1].isDisponible()) {
       if (produits[num-1].getQuantStock() >= quantité){
-        System.out.println("L'achat c'est executé avec succès !!n");
+        System.out.println("L'achat c'est executé avec succès !!\n");
         produits[num -1].setQuantStock(produits[num -1].getQuantStock()-quantité);
         return caisse+=quantité*produits[num-1].getPrixUnit();
       } else {System.out.println("Il n'y a pas une quantité de produits suffisantes!!");}

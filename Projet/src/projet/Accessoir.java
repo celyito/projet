@@ -30,4 +30,4 @@ public class Accessoir extends Produit {
 	  }
 	}
 
-}
+
